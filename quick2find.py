@@ -4,7 +4,7 @@ import pyaudio
 
 dictionary = PyDictionary
 
-model = Model(r"C:\Users\jacks\Desktop\Visual Studio Code\Projects\Quick-To-Find\vosk-model-small-en-us-0.15")
+model = Model(r"C:\Users\jacks\Desktop\Visual Studio Code\Projects\Quick2Find\vosk-model-small-en-us-0.15")
 recognizer = KaldiRecognizer(model, 16000)
 
 mic = pyaudio.PyAudio()
