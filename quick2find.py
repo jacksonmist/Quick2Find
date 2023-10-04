@@ -164,10 +164,4 @@ def remove_empty_def(array1, array2, array3, array4):
     
     return array1, array2, array3, array4
 
-get_word()
-
-
-            
-
-            
-            
+get_word()           
